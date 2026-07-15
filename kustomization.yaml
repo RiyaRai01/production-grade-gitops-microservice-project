@@ -6,8 +6,8 @@ resources:
   - microservices-extra-kube-manifests/target-grp.yaml
 
 helmCharts:
-  - name: boutique-app
-    repo: oci://ghcr.io/riyarai01/onlineboutique
+  - name: onlineboutique
+    repo: oci://ghcr.io/riyarai01
     version: 0.10.4
     releaseName: boutique-app
     namespace: boutique-app
