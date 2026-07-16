@@ -8,7 +8,7 @@ spec:
 
   source:
     repoURL: https://github.com/RiyaRai01/production-grade-gitops-microservice-project.git
-    targetRevision: HEAD
+    targetRevision: main
     path: .
 
   destination:
